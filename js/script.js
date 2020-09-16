@@ -1,4 +1,4 @@
-const url = "https://noroffcors.herokuapp.com/https://t9jt3myad3.execute-api.eu-west-2.amazonaws.com/api/breakingbad";
+import { url } from "./constants/api.js";
 
 const resultContainer = document.querySelector(".result-container");
 
