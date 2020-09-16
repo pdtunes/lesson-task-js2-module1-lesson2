@@ -1,4 +1,4 @@
-export function createTags(list = []) {
+export default function createTags(list = []) {
     let tags = "";
 
     list.forEach((item) => (tags += `<span>${item}</span>`));

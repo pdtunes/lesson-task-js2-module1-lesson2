@@ -1,6 +1,6 @@
 import createTags from "./createTags.js";
 
-export function createHtml(data) {
+export default function createHtml(data) {
     resultContainer.innerHTML = "";
 
     for (let i = 0; i < 7; i++) {
