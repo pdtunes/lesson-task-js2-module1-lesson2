@@ -1,3 +1,5 @@
+import createTags from "./createTags.js";
+
 function createHtml(data) {
     resultContainer.innerHTML = "";
 
